@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="card-container">
+        <div class="music-player">
+            <h1 class="heading">Music Player</h1>
+        </div>
+        <div class="images">
+            <img class="music-image" src="" alt="">
+        </div>
+        <div class="paragraph">
+            <p class="name"></p>
+            <p class="artist"></p>
+        </div>
+        <div class="music-line">
+            <div class="line-bar"></div>
+            <div class="timer">
+                <span class="current">0:00</span>
+                <span class="duration">3:40</span>
+            </div>
+            <audio class="audio" src=""></audio>
+        </div>
+        <div class="icons">
+            <div class="repeated">
+                <i class="controls someIcon fa-solid fa-repeat" title="playlist looped"></i>
+            </div>
+            <i class="controls someIcon fa-solid fa-backward-step"></i>
+            <div class="playIcon">
+                <i class="controls fa-solid fa-play"></i>
+            </div>
+            <i class="controls someIcon fa-solid fa-forward-step"></i>
+            <i class="controls someIcon fa-solid fa-list" title="music list"></i>
+        </div>
+        <div class="list-container">
+            <div class="music-list">
+                <div class="row-list">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <span>Music list</span>
+                </div>
+                <i class="fa-regular fa-circle-xmark"></i>
+            </div>
+            <ul>
+            </ul>
+        </div>
+    </div>
+    <script src="musci-list.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
